@@ -18,6 +18,7 @@ class ApplicationController < Sinatra::Base
 
   post "/signup" do
     #your code here
+    if current_user 
 
   end
 
